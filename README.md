@@ -20,4 +20,4 @@ Kimberly Owens
 ## Development
 Future development could add the functionality to filter and search on multiple fields.
 ## Links
-[Staff Directory](https://cryptic-badlands-67351.herokuapp.com/)
+[Staff Directory](https://kimberlyj227.github.io/staff-directory/index.html)
