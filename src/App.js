@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Jumbo from "./components/Jumbo/Jumbo";
-import Nav from "./components/Nav/Nav"
+import Main from "./components/Main/Main";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Jumbo />
       </header>
       <div>
-        <Nav />
+        <Main />
       </div>
     </div>
   );

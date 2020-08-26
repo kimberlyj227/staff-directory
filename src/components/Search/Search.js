@@ -4,22 +4,25 @@ import { BsSearch } from "react-icons/bs";
 import TableContext from "../../utils/TableContext";
 
 const Search = () => {
-  const {handleInputChange} = useContext(TableContext);
+  const context = useContext(TableContext);
 
   return (
     <form>
-      <div className = "form-group">
-        <span> <BsSearch/> </span>
-        <input 
-          onChange={e => handleInputChange(e)}
+      <div className="form-group">
+       
+          <span> <BsSearch/> </span>
+        
+        <input
+          onChange={context.handleInputChange}
           name="search"
           type="search"
+          className="form-control"
           placeholder="Search by Name"
-          id="search"        
+          id="search"
         />
       </div>
-
     </form>
+
   )
 }
 
